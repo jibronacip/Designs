@@ -1,0 +1,296 @@
+body{
+    position:relative;
+    background-color: rgb(221, 223, 223);
+}
+
+#heads{
+    position: absolute;
+    left:650px;
+    
+}
+
+#heads h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+#heads p{
+    position: relative;
+    left:-150px;
+    top:-9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mains{
+    width:1000px;
+    height: 540px;
+    background-color: white;
+    box-shadow: 0px 0px 4px black;
+    position: relative;
+    top:180px;
+    left:250px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+#blue{
+    position: relative;
+    width:300px;
+    height: 540px;
+    background-color: rgb(2, 2, 51);
+    transform: scale(0.97);
+    border-radius: 4.5px;
+    box-shadow: 0px 0px 2px black;
+}
+
+#circle{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    background-color: rgba(45, 87, 145, 0.598);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    opacity: 50%;
+    bottom:0px;
+    right:0px;
+}
+
+#cir{
+    width: 50px;
+    height:50px;
+    background-color:rgba(6, 255, 6, 0.242);
+    border-radius: 50%;
+    position: absolute;
+    bottom:60px;
+    right:60px;
+}
+
+#letter{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transform: scale(0.8);
+    top:5px;
+    transform: scale(0.8);
+}
+
+#phn {
+    position: absolute;
+    top:200px;
+}
+
+#light{
+    color:rgba(255, 255, 255, 0.486);
+}
+
+#point{
+    position: absolute;
+    top:230px;
+
+}
+
+#point p:nth-child(2) {
+    position: relative;
+    left:10px;
+    transform: scale(1.06);
+
+}
+
+#nn1{
+    position: absolute;
+    right:440px;
+    top:50px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn1 label{
+    position: relative;
+    top:-10px;
+    left:-60px;
+}
+#nn1 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+}
+
+#nn2{
+    position: absolute;
+    right:100px;
+    top:50px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn2 label{
+    position: relative;
+    top:-10px;
+    left:-58px;
+}
+#nn2 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+}
+
+#nn3{
+    position: absolute;
+    right:100px;
+    top:130px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn3 label{
+    position: relative;
+    top:-10px;
+    left:-58px;
+}
+#nn3 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+}
+
+#nn4{
+    position: absolute;
+    right:440px;
+    top:130px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn4 label{
+    position: relative;
+    top:-10px;
+    left:-60px;
+}
+#nn4 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+}
+
+#nn5{
+    position: absolute;
+    right:440px;
+    top:220px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn5 label{
+    position: relative;
+    top:-10px;
+    left:-60px;
+}
+#nn5 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+}
+
+#nn6{
+    position: absolute;
+    right:100px;
+    top:220px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+
+}
+#nn6 label{
+    position: relative;
+    top:-10px;
+    left:-60px;
+}
+
+#nn6 select{
+    transform: scale3d(1.8,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+
+#nn7{
+    position: absolute;
+    right:440px;
+    top:315px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn7 label{
+    position: relative;
+    top:-10px;
+    left:-60px;
+}
+#nn7 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+}
+
+#nn8{
+    position: absolute;
+    right:170px;
+    top:315px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+
+}
+#nn8 label{
+    position: relative;
+    top:-10px;
+    left:-95px;
+}
+
+#nn8 select{
+    transform: scale3d(1.8,1.6,1);
+    box-shadow: 0px 0px 1px black;
+    border: 0px;
+    position: absolute;
+    left: -60px;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+#nn9{
+    position: absolute;
+    right:170px;
+    top:399px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+/* #nn9 label{
+    position: relative;
+    top:-10px;
+    left:-60px;
+} */
+#nn9 input{
+    transform: scale3d(1.7,1.5,1);
+    box-shadow: none none 1px black;
+    border: 0px;
+
+}
+
+#nn10{
+    position: absolute;
+    right:600px; 
+    top:490px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#nn10 button{
+    transform: scale3d(2.1,1.5,1);
+    box-shadow: none none 1px black;
+    border: 0px;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    padding:9px;
+    opacity: 0.7;
+}
