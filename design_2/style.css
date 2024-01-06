@@ -1,0 +1,333 @@
+body{
+    background-color: rgba(250, 250, 250, 0.858);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#cont_1{
+    position: relative;
+    width:100%;
+    height: 130px;
+    background-color: rgb(78, 55, 134);
+}
+
+#cont_1 h1{
+    position: absolute;
+    left:650px;
+    font-size:40px;
+    top:-8px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.4;
+    font-weight: lighter;
+    transform: scaleX(1.09);
+}
+
+#cont_1 p{
+    font-weight:0.4;
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 50px;
+    right:685px;
+    opacity: 0.82;
+
+}
+
+#cont_2{
+    width: 100%;
+    height: 796px;
+    position: relative;
+    top:3px;
+}
+
+#nn1{
+    position: absolute;
+    top:30px;
+    left:350px;
+}
+
+#nn1 label{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.8;
+}
+
+#nn1 select{
+    position: absolute;
+    top:40px;
+    left:2px;
+    width: 230%;
+    height: 33px;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 2px;
+}
+
+#nn2{
+    position: absolute;
+    top:130px;
+    left:350px;
+}
+
+#nn2 label{
+    font-size: 25px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nn2 input{
+    position: absolute;
+    top:40px;
+    left:2px;
+    width: 627%;
+    height: 33px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 2px;
+    border: none;
+    border-color: none;
+}
+
+#nn3{
+    position: absolute;
+    top:240px;
+    left:350px;
+}
+
+#nn3 label{
+    font-size: 25px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nn3 input{
+    position: absolute;
+    top:40px;
+    left:2px;
+    width: 129%;
+    height: 33px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 2px;
+    border: none;
+    border-color: none;
+}
+
+#nn4{
+    position: absolute;
+    top:345px;
+    left:350px;
+}
+
+#nn4 label{
+    font-size: 25px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nn4 input{
+    position: absolute;
+    top:40px;
+    left:2px;
+    width: 715px;
+    height: 33px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 2px;
+    border: none;
+    border-color: none;
+}
+
+#nn5{
+    position: absolute;
+    top:455px;
+    left:350px;
+}
+
+#nn5 label{
+    font-size: 25px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nn5 textarea{
+    position: absolute;
+    top:40px;
+    left:2px;
+    width: 715px;
+    height: 100px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 2px;
+    border: none;
+    border-color: none;
+    resize: none;
+}
+
+#cont_2 button{
+    position: absolute;
+    top:630px;
+    left:350px;
+    font-size: 17px;
+    font-weight: bolder;
+    padding:9px;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background-color:rgb(78, 55, 134) ;
+    color: white;
+    border-color: none;
+    border: none;
+    box-shadow: 1px 1px 2px black;
+}
+
+#line_1{
+    position: absolute;
+    top:700px;
+    width: 100%;
+    height: 0.03px;
+    background-color: black;
+}
+#line_2{
+    position: absolute;
+    top:784px;
+    width: 100%;
+    height: 0.05px;
+    background-color: black;
+}
+
+
+#link_1{
+    position: absolute;
+    width:100%;
+    height: 100px;
+    top:707px;
+    
+}
+
+#logo{
+    position: relative;
+    top: 10px;
+    left:90px;
+}
+
+#link_1 ul{
+    width:  30%;
+    display: flex;
+    margin-left:200px ;
+    margin-top: -37px;
+    justify-content: space-between;
+}
+
+#link_1 ul li{
+    list-style: none;
+    font-size: 16px;
+} 
+
+#link_1 ul li a{
+    text-decoration: none;
+    color: black
+}
+
+#link_1 h3{
+    position: relative;
+    left:1140px;
+    top:-44.8px;
+}
+
+#cont_3{
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background-color: rgb(191, 197, 224);
+}
+
+#u1{
+    position: absolute;
+    top:30px;
+    left:50px;
+}
+
+#u1 li{
+    list-style: none;
+}
+
+#u1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+#u2{
+    position: absolute;
+    top:30px;
+    left:250px;
+}
+
+#u2 li{
+    list-style: none;
+}
+
+#u2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+#u3{
+    position: absolute;
+    top:30px;
+    left:490px;
+}
+
+#u3 li{
+    list-style: none;
+}
+
+#u3 li a{
+    text-decoration: none;
+    color: white;
+}
+
+#u4{
+    position: absolute;
+    top:30px;
+    left:700px;
+}
+
+#u4 li{
+    list-style: none;
+}
+
+#u4 li a{
+    text-decoration: none;
+    color: white;
+}
+
+#cont_3 h1{
+    position: absolute;
+    right:150;
+    top:30px;
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+#cont_3 p{
+    position: absolute;
+    right:160;
+    top:60px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cont_3 button{
+    position: absolute;
+    right:200;
+    top:140px;
+    font-weight:normal;
+    font-size: 19px;
+    padding: 10px;
+    width: 110px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    background:rgb(78, 55, 134);
+    color: white;
+}
