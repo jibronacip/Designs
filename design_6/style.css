@@ -1,0 +1,17 @@
+#cont{
+    padding: 2em;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-rows: 0.5fr 2fr 0.8fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#cont > div {
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+
+#i2{
+    grid-column: auto / span 2;
+}
