@@ -1,0 +1,165 @@
+#cont{
+    padding:2em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 0.5fr 0.5fr 3fr 0.5fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    height: 100vh;
+    grid-template-areas: 
+    "n1 n1 n1 n1 n1"
+    "n2 n3 n3 n3 n5"
+    "n2 n4 n4 n4 n5"
+    "n6 n6 n6 n6 n6";
+}
+#cont > div{
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+
+#i1{
+    grid-area: n1;
+}
+
+#i2{
+    grid-area: n2;
+}
+#i3{
+    grid-area: n3;
+}
+#i4{
+    grid-area: n4;
+}
+#i5{
+    grid-area: n5;
+}
+#i6{
+    grid-area: n6;
+}
+
+#i1{
+    display: grid;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#ii1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ii1 > li{
+    list-style: none;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#ii1 > li > a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+#ii1 > li:hover{
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    
+}
+
+#logo{
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+    h1{
+        color: white;
+        transition: all 3s linear;
+    }
+    h1:hover{
+        box-shadow: 30px 30px 40px rgb(0, 0, 0);
+        transform: translateX(10px);
+    }
+}
+
+
+#i6{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#elem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#elem > *{
+    scale: 1.5 1.5 ;
+}
+
+#i4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+#words{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+#d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    button{
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: rgba(165, 42, 42, 0.674);
+        border : none;
+        color: white;
+        box-shadow: 10px 10px 30px rgba(0,0,0,4);
+    }
+    h1{
+        width: 100%;
+        height: 30%;
+        font-size: 45px;
+        
+        text-align: center;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+}
+
+#im > img{
+    width: 80%;
+    height: 80%;
+}
+
+#i2{
+    padding:1em;
+}
+#i2{
+    background-color: rgba(0, 255, 255, 0.584);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i3{
+    background-color: rgba(34, 139, 34, 0.708);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i5{
+    background-color: rgba(95, 158, 160, 0.621);
+}
