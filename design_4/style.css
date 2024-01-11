@@ -1,0 +1,145 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    margin-top: 0px;
+}
+#navbar{
+    column-gap: 2px;
+    position: fixed;
+    display: grid;
+    width: 97.9%;
+    left:24.5px;
+    grid-template-columns: 1fr 0.2fr 2fr;
+    height: 150px;
+    background-color: black;
+}
+#navbar> div{
+    background-color: chartreuse;
+}
+
+#cont{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6.6fr 5.1fr 3.8fr 3fr 3.8fr 4fr 5.3fr;
+    height:400vh;
+}
+
+#cont > div {
+    background-color: turquoise;
+    row-gap: 5px;
+    column-gap: 5px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+}
+
+#i2{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1.2fr;
+}
+
+#block1 {
+    background-color: brown;
+}
+
+#block2{
+    background-color: brown;
+}
+
+#block2{
+    column-gap: 10px;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 20em;
+    padding-right: 20em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+#block2 > div{
+    background-color: bisque;
+}
+
+
+/* Block2 */
+#i3{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1.2fr;
+}
+
+#i3 > div {
+    background-color: black;
+}
+
+#disk32{
+    padding: 2em;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#disk32 > div {
+    background-color: brown;
+}
+
+#i4{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1fr;
+}
+#i4 > div {
+    background-color: black;
+}
+
+#disk42{
+    padding: 2em;
+    display: flex;
+    gap: 5px;
+}
+
+#disk42 > div {
+    width: 80%;
+    height: 100%;
+    background-color: azure;
+}
+
+#i5{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.2fr 1.5fr 1fr 0.8fr;
+}
+
+#i5 > div {
+    background-color: black;
+}
+
+#i6{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.4fr 1fr;
+}
+
+#i6 > div{
+    background-color: black;
+}
+
+#i7{
+    padding: 2em;
+    padding-bottom: 0em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 4fr 0.5fr;
+}
+
+#i7 > div {
+    background-color: black;
+}
+
