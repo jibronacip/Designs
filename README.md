@@ -12,3 +12,5 @@
 <h1>Simple Grid Layout System</h1>
 ![image](https://github.com/jibronacip/Designs/assets/76101932/170a1fc0-e0f8-42f1-b313-b086c255bffd)
 
+<h1>Watch the Short Video of the template here</h1>
+https://github.com/jibronacip/Designs/assets/76101932/15aad637-71a4-4764-b632-dd6a1e22fdb6
