@@ -14,3 +14,7 @@
 
 <h1>Watch the Short Video of the template here</h1>
 https://github.com/jibronacip/Designs/assets/76101932/15aad637-71a4-4764-b632-dd6a1e22fdb6
+
+
+<h1>My Simple Portfolio</h1>
+![image](https://github.com/jibronacip/Designs/assets/76101932/863ff95b-d33e-477a-99de-c31ad4039ba7)
