@@ -18,3 +18,10 @@ https://github.com/jibronacip/Designs/assets/76101932/15aad637-71a4-4764-b632-dd
 
 <h1>My Simple Portfolio</h1>
 ![image](https://github.com/jibronacip/Designs/assets/76101932/863ff95b-d33e-477a-99de-c31ad4039ba7)
+
+
+<h1>Simple Parallax Method</h1>
+
+
+https://github.com/jibronacip/Designs/assets/76101932/35cf0189-522a-48d7-8cd1-b18bbe2973d1
+
